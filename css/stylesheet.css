@@ -16,7 +16,7 @@ header ul {
 }
 
 a:hover {
-    background-color: #CE8E02
+    background-color: #FECA3C
 }
 
 header h1 {
@@ -38,7 +38,7 @@ section {
 }
 
 #intro {
-  background-image: url('../images/cover.png');
+  background-image: url('../images/cover3.JPG');
   background-size: cover;
   min-height: 100vh !important;
   animation: linear infinite;
@@ -54,7 +54,8 @@ section {
 }
 
 #portfolio {
-  background: #fafafa;
+  background: #D3CECB;
+  background-size: cover;
 }
 
 .work img {
