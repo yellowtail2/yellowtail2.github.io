@@ -1,0 +1,95 @@
+/*
+
+  light-green:     BCEBE0
+  Text:            4A4A4A
+  Navigation text: 4A4A4A
+  content text:    4A4A4A
+
+*/
+
+header {
+  overflow: hidden;
+}
+
+header ul {
+  float: right;
+}
+
+a:hover {
+    background-color: #CE8E02
+}
+
+header h1 {
+  display: inline-block;
+  margin: 0;
+}
+
+header ul {
+  list-style-type: none;
+}
+
+header ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+
+section {
+  overflow: hidden;
+}
+
+#intro {
+  background-image: url('../images/cover.png');
+  background-size: cover;
+  min-height: 100vh !important;
+  animation: linear infinite;
+}
+
+.intro {
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+.intro-box {
+  float: right;
+}
+
+#portfolio {
+  background: #fafafa;
+}
+
+.work img {
+  opacity: 0;
+  max-width: 100%;
+
+}
+
+.va {
+  background: url('../images/Victoria.png');
+  background-size: cover;
+}
+
+.gg {
+  background: url('../images/gg.png');
+  background-size: cover;
+}
+
+.mp {
+  background: url('../images/mid.png');
+  background-size: cover;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#intro {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.intro-container {
+  position: absolute;
+  bottom: 0px;
+}
