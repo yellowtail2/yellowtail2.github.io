@@ -81,6 +81,9 @@ section {
   background: #D3CECB;
   background-size: cover;
 }
+#contact {
+  background: #D3CECB;
+}
 
 .work img {
   opacity: 0;
@@ -107,6 +110,7 @@ section {
   text-align: center;
 }
 
+
 #intro {
   min-height: 60vh;
   display: flex;
@@ -117,4 +121,8 @@ section {
 .intro-container {
   position: absolute;
   bottom: 0px;
+}
+
+#va, #gg, #mp {
+  display: none;
 }
