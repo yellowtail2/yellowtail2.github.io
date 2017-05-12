@@ -9,6 +9,12 @@
 
 header {
   overflow: hidden;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: white;
+  z-index: 1;
 }
 
 header ul {
@@ -35,6 +41,24 @@ header ul li {
 
 section {
   overflow: hidden;
+  min-height: 100vh;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  align-self: flex-end;
+  padding: 10px;
+}
+
+.arrow:hover {
+  background: none;
+}
+
+.arrow img {
+  max-height: 60px;
 }
 
 #intro {
